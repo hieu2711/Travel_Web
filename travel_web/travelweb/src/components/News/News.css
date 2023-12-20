@@ -1,0 +1,45 @@
+.items{
+    display: flex;
+    border: 1px solid #DCDCDC;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.items:hover{
+    border: 1px solid #87CEFA;
+}
+.items img{
+    width: 400px;
+    height: 300px;
+    margin-right: 15px;
+}
+.item p:first-child{
+    font-size: 18px;
+    color: #1179bc;
+    font-weight: bold;
+}
+.like-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    color: #888;
+  }
+  .item{
+    display: flex;
+    flex-direction: column;
+  }
+  .cmt{
+    color: #1179bc;
+    font-weight: bolder;
+  }
+/* Màu khác cho biểu tượng "like" khi thích */
+.like-icon.active {
+    color: #007bff; /* Màu xanh */
+}
+ 
+  
+  
+  
+  
+  

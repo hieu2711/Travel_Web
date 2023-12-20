@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="baseLayout"
+                template="/WEB-INF/layout/base.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header"
+                       value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="" />
+        <put-attribute name="footer"
+                       value="/WEB-INF/layout/footer.jsp" />
+    </definition>
+    <definition name="index" extends="baseLayout">
+        <put-attribute name="title" value="Trang chủ" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/index.jsp" />
+    </definition>
+     <definition name="tours" extends="baseLayout">
+        <put-attribute name="title" value="Quản lí Tours" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/tours.jsp" />
+    </definition>
+    <definition name="category" extends="baseLayout">
+        <put-attribute name="title" value="Quản lí loại Tours" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/category.jsp" />
+    </definition>
+    <definition name="addCategory" extends="baseLayout">
+        <put-attribute name="title" value="Thêm loại Tours" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/addCategory.jsp" />
+    </definition>
+    <definition name="staff" extends="baseLayout">
+        <put-attribute name="title" value="Quản lí Nhân Viên" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/staff.jsp" />
+    </definition>
+    <definition name="addStaff" extends="baseLayout">
+        <put-attribute name="title" value="Thêm Nhân viên" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/addStaff.jsp" />
+    </definition>
+    <definition name="priceTours" extends="baseLayout">
+        <put-attribute name="title" value="Giá Tours" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/priceTours.jsp" />
+    </definition>
+    <definition name="addPriceTours" extends="baseLayout">
+        <put-attribute name="title" value="Thêm giá Tours" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/addPriceTours.jsp" />
+    </definition>
+    <definition name="new" extends="baseLayout">
+        <put-attribute name="title" value="Tin tức" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/new.jsp" />
+    </definition>
+    <definition name="addNews" extends="baseLayout">
+        <put-attribute name="title" value="Thêm tin tức" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/addNews.jsp" />
+    </definition>
+    <definition name="login" extends="baseLayout">
+        <put-attribute name="title" value="Đăng nhập" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/login.jsp" />
+    </definition>
+    <definition name="updateStaff" extends="baseLayout">
+        <put-attribute name="title" value="Cập nhật nhân viên" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/updateStaff.jsp" />
+    </definition>
+    <definition name="imageTours" extends="baseLayout">
+        <put-attribute name="title" value="Hình ảnh Tours" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/imageTours.jsp" />
+    </definition>
+    <definition name="addImage" extends="baseLayout">
+        <put-attribute name="title" value="Hình ảnh Tours" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/addImage.jsp" />
+    </definition>
+    <definition name="chart" extends="baseLayout">
+        <put-attribute name="title" value="Thống kê bán hàng" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/chart.jsp" />
+    </definition>
+    <definition name="chartRevenue" extends="baseLayout">
+        <put-attribute name="title" value="Thống kê doanh thu" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/chartRevenue.jsp" />
+    </definition>
+</tiles-definitions>
+

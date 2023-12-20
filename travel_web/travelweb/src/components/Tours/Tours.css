@@ -1,0 +1,6 @@
+#card{
+    margin-bottom: 100px;
+}
+#card:hover{
+    border: 2px solid #00BFFF;
+}
